@@ -1,6 +1,6 @@
 *==============================================================================
 * Variable Descriptions
-* Paper: Comrades and Cause: Peer Influence on West Point Cadets' Civil War Allegiances
+* Paper: Comrades and Cause and Peer Influence on West Point Cadets' Civil War Allegiances
 * Guo, Jackson, Jia (2026)
 *==============================================================================
 
