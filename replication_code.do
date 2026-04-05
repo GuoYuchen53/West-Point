@@ -61,8 +61,8 @@
 * non_slave_5        : Free State indicator under 5% threshold: 1 = Free State (slave share < 5%) (robustness, Table S5)
 * slave_10           : Slave State indicator under 10% threshold: 1 = Slave State (slave share >= 10%) (robustness, Table S5)
 * non_slave_10       : Free State indicator under 10% threshold: 1 = Free State (slave share < 10%) (robustness, Table S5)
-* clear_zero_slave   : Indicator for states with negligible slavery (slave share <= 0.1%); clearly Free States (Table 2 Panel B grouping)
-* clear_low_slave    : Indicator for moderate slave states (0.1% < slave share <= 33%); includes border states (Table 2 Panel B grouping)
+* clear_zero_slave   : Indicator for states with negligible slavery (slave share <= 1%); clearly Free States (Table 2 Panel B grouping)
+* clear_low_slave    : Indicator for moderate slave states (1% < slave share <= 33%); includes border states (Table 2 Panel B grouping)
 * clear_high_slave   : Indicator for heavily slave-dependent states (slave share > 33%) (Table 2 Panel B grouping)
 
 * --- Family Background Variables ---
@@ -158,8 +158,8 @@ end
 * x1 flags cadets whose home county is missing.
 gen x1 = (born_state!="" & born_county=="")
 gen x2 = ((born_state!="" & born_county=="") | PercentageEnslaved>33)
-gen clear_zero_slave = (PercentageEnslaved<=0.1)
-gen clear_low_slave  = (PercentageEnslaved>0.1 & PercentageEnslaved<=33)
+gen clear_zero_slave = (PercentageEnslaved<=1)
+gen clear_low_slave  = (PercentageEnslaved>1 & PercentageEnslaved<=33)
 gen clear_high_slave = (PercentageEnslaved>33)
 gen Evangelical_churches = Congregationalchurches + Methodistchurches + Presbyterianchurches
 gen Liturgical_churches  = RomanCatholicchurches + FriendsQuakerchurches + Lutheranchurches + Episcopalchurches
