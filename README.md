@@ -1,4 +1,4 @@
-# Replication Package: "Comrades and Cause: Peer Influence on West Point Cadets' Civil War Allegiances"
+# Replication Package: "Comrades and Cause and Peer Influence on West Point Cadets' Civil War Allegiances"
 
 **Authors:** Yuchen Guo, Matthew O. Jackson, Ruixue Jia  
 **Journal:** (2026)  
@@ -236,4 +236,4 @@ All output tables are exported as `.tex` and `.rtf` files to the working directo
 
 If you use this replication package, please cite:
 
-> Guo, Yuchen, Matthew O. Jackson, and Ruixue Jia. "Comrades and Cause: Peer Influence on West Point Cadets' Civil War Allegiances." 2026.
+> Guo, Yuchen, Matthew O. Jackson, and Ruixue Jia. "Comrades and Cause and Peer Influence on West Point Cadets' Civil War Allegiances." 2026.
