@@ -114,7 +114,7 @@ All church variables are measured as the number of churches per 1,000 population
 | `Baptistchurches` | — |
 | `Methodistchurches` | Evangelical |
 | `Presbyterianchurches` | Evangelical |
-| `FriendsQuakerchurches` | Evangelical |
+| `FriendsQuakerchurches` | - |
 | `Congregationalchurches` | Evangelical |
 | `RomanCatholicchurches` | Liturgical |
 | `Lutheranchurches` | Liturgical |
