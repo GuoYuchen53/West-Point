@@ -76,7 +76,7 @@
 * Baptistchurches        : Number of Baptist churches per 1,000 population in cadet's home county
 * Methodistchurches      : Number of Methodist churches per 1,000 population in cadet's home county (classified as Evangelical / pro-slavery denomination)
 * Presbyterianchurches   : Number of Presbyterian churches per 1,000 population in cadet's home county (classified as Evangelical / pro-slavery denomination)
-* FriendsQuakerchurches  : Number of Quaker churches per 1,000 population in cadet's home county (classified as Evangelical / pro-slavery denomination)
+* FriendsQuakerchurches  : Number of Quaker churches per 1,000 population in cadet's home county (pro-slavery denomination)
 * Congregationalchurches : Number of Congregational churches per 1,000 population in cadet's home county (classified as Evangelical / pro-slavery denomination)
 * RomanCatholicchurches  : Number of Roman Catholic churches per 1,000 population in cadet's home county (classified as Liturgical / anti-slavery denomination)
 * Lutheranchurches       : Number of Lutheran churches per 1,000 population in cadet's home county (classified as Liturgical / anti-slavery denomination)
