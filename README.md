@@ -95,8 +95,8 @@ The dataset covers 1,638 West Point cadets who graduated between 1820 and 1860. 
 | `slave` / `non_slave` | Slave/Free State indicator at 1% threshold (baseline) |
 | `slave_5` / `non_slave_5` | Slave/Free State indicator at 5% threshold |
 | `slave_10` / `non_slave_10` | Slave/Free State indicator at 10% threshold |
-| `clear_zero_slave` | Clearly Free States (slave share ≤ 0.1%) |
-| `clear_low_slave` | Moderate slave states (0.1% < slave share ≤ 33%) |
+| `clear_zero_slave` | Clearly Free States (slave share ≤ 1%) |
+| `clear_low_slave` | Moderate slave states (1% < slave share ≤ 33%) |
 | `clear_high_slave` | Heavy slave states (slave share > 33%) |
 
 #### Family Background Variables
